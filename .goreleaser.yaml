@@ -7,8 +7,8 @@ before:
     # you may remove this if you don't need go generate
     - go generate ./...
 builds:
-  - id: mybin
-    binary: mybin
+  - id: daja
+    binary: daja
     main: .
     goos:
       - linux
